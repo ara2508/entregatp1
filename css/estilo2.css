@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+
+
+
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #ffeaea;
+}
+main     {
+	width:80%;
+	height:740px;
+    max-width: 1180px;
+	background-color: #fff0f0;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 30%;
+	height: 110%
+	background-color:#ecb2c1;
+	float: left;
+}
+
+
+nav{width:100%;
+	height:110px;
+	background-color:#ecb2c1;
+	float: right;
+}
+#marca  {
+	width:205px;
+	height: 70px;
+	margin-left: 25px;
+	margin-right: auto;
+	margin-top: 20px;
+	color: #ffffff;
+}
+
+ul.menu{
+	padding: 0px;
+	margin: 0;
+	padding-bottom: 3%;
+	list-style-type: none;
+    float: left;
+	margin-left: 230px;
+	text-align: center;
+}
+
+ul.menu li { 
+	display: inline;
+}
+
+ul.menu li a {
+	width: 110px;
+	height: 46px;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+    float: left;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 6px;
+}
+
+ul.menu li a:hover {
+	color: #b25dc2;
+}
+
+ul.menu li a:active {
+	color:#FFD8D8 ;
+}
+
+footer  {
+	width:100%;
+	height:30px;
+	max-width: 1180px;
+	background-color:#ecb2c1;
+    margin-left: auto;
+	margin-right: auto;
+}
+#nombre	{
+	width: 30%;
+	height: 2%;
+	color: #ffffff;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+    margin-left: 25px;
+    margin-top: 8px;
+
+}
+
+#portada {
+	width: 100%;
+	height: 740px;
+	background-image: url(../img2/portada2.jpg);
+}
+
+#contenedortexto {
+	width: 30%;
+	height: 100px;
+	background-color: rgba(235,198,242,0.5);
+	float:right;
+   margin-top: 380px;
+   margin-right: 20px;
+   border-radius: 10px;
+}
+
+#linea{
+	width: 80%;
+	height: 27px;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Niconne', cursive;
+	margin-left: 70px;
+	margin-top: 6px;
+
+
+}
+.texto2	{
+	width: 100%;
+	height: 10px;
+	color: #ffffff;
+	font-size: 13px;
+	font-family: 'Open sans', sans-serif;
+	margin-top: 16px;
+	margin-left: 25px;
+
+	padding-right: 12px;
+	
+}
+
+#titulos  {
+	width: 100%;
+	height: 10px;
+	color: #871158;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Open sans', sans-serif;
+	float: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.recursos	{
+	margin-left: 185px;
+	margin-top: 55px;
+}
+
+.img {
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 244px;
+	float: left;
+}
+
+.contenedor3	{
+	width:340px;
+	height:480px;
+    background-color: rgba(226,198,224,0.7);
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	border: 1px; 
+    border-radius: 19px;
+
+
+}
+
+
+.slider {
+	width: 100%;
+	height: 310px;
+    overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width:100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 340px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.contenedor4{
+	width:340px;
+	height:480px;
+	background-color: rgba(226,198,224,0.7);
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	border: 1px; 
+    border-radius: 19px;
+
+}
+
+.contenedor5{
+	width:340px;
+	height:480px;
+	background-color: rgba(226,198,224,0.7);
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	border: 1px; 
+    border-radius: 19px;
+
+}
+#subtitulo{	
+	width: 40%;
+	height: 10px;
+	color: rgba(87, 96, 111,1.0);
+	display: inline-block;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'Open sans', sans-serif;
+	margin-left: 12px;
+	margin-top: 8px;
+	
+}
+.texto	{
+	width: 98%;
+	height: 10px;
+	color: rgba(87, 96, 111,1.0);
+	font-size: 13px;
+	font-family: 'Open sans', sans-serif;
+	margin-top: 14px;
+	margin-left: 12px;
+
+	padding-right: 12px;
+	
+}
